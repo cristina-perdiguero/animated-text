@@ -12,11 +12,11 @@ body{
     margin: auto;
     display: flex;
     align-items: center;
+    position: relative;
 }
 .cursor{
     animation: blink 0.7s cubic-bezier(.14,.81,.38,.92) infinite;
 }
-
 @keyframes blink {
     0%{
         opacity: 0;
