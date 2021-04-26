@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    font-family: 'New Tegomin', serif;
+    font-size: 50px;
+}
+.container{
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.cursor{
+    animation: blink 0.7s cubic-bezier(.14,.81,.38,.92) infinite;
+}
+
+@keyframes blink {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
