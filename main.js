@@ -20,8 +20,6 @@ function maquinaEscribir(){
 function insertarMensaje(){
     nodoMensaje = document.createElement('div'); 
     nodoText.appendChild( nodoMensaje ); 
-    nodoMensaje.innerHTML = mensajeActual; 
-
 }
 
 function insertarCursor(){
